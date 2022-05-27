@@ -9,6 +9,5 @@ pipeline {
             sh 'echo python -version'
         }
       }
-    }
   }
 }
