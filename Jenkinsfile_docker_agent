@@ -1,5 +1,7 @@
 pipeline {
-  agent any
+  agent {
+    docker { image 'amazon/aws-sam-cli-build-image-python3.8'}
+  }
 
   stages {
     // stage('setup python env') {
